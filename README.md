@@ -1,10 +1,14 @@
 # Basketball Scoreboard
 
+<p align="center">
+  <img src="images/preview.PNG" alt="Basketball Scoreboard Project Preview">
+</p>
+
 ## Description
 
 This is a simple project to learn an interactive website with Javascript. I built this with only HTML, CSS and Javascript without a framework.
 
-## How to use
+## How to run it
 
 1. Clone it with this command on your terminal. You can name it with as you want
 
