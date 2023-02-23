@@ -1,8 +1,72 @@
-body {
+/* 
+Color
+Background 20, 33, 61 | #14213d 
+Card 229, 229, 229 | #E5E5E5
+Text 252, 163, 17 | #FCA311
+*/
+
+@font-face {
+    font-family: "Cursed Timer ULiL Font";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+h3 {
     margin: 0;
 }
 
-.container {
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #e5e5e5;
+    text-align: center;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: #14213d;
+    color: #e5e5e5;
+    font-size: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 0 2rem black;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score-text {
+    font-family: "Cursed Timer ULiL Font";
+    font-size: 4em;
+    color: #f94f6d;
+}
+
+.score {
+    background: black;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 1rem 1rem;
+}
+
+.score-btn {
+    color: #9aabd8;
+    background: none;
+    padding: 0.8rem;
+    border: 0.1rem solid #9aabd8;
+    font-family: "Cursed Timer ULiL Font";
+    font-size: 1rem;
+}
+
+.score-btn:hover {
+    border-color: #fca311;
+    color: #fca311;
+}
+
+.score-btn:active {
+    padding: 0.76rem;
 }
