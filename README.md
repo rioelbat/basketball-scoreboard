@@ -8,6 +8,8 @@
 
 This is a simple project to learn an interactive website with Javascript. I built this with only HTML, CSS and Javascript without a framework.
 
+Live demo: [Here](https://basketball-scoreboard-rioelbat.netlify.app/).
+
 ### Features
 
 -   Add score for Guest and Home with +1, +2 & +3 buttons
