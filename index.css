@@ -27,6 +27,7 @@ body {
 }
 
 .container {
+    position: relative;
     background: #14213d;
     color: #e5e5e5;
     font-size: 1.5rem;
@@ -34,6 +35,19 @@ body {
     box-shadow: 0 0 2rem black;
     border-radius: 1rem;
     margin: 2rem auto;
+}
+
+.reset-btn {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    background-color: #14213d;
+    padding: 0.2rem;
+    border: 0.1rem solid #f94f6d;
+    color: #f94f6d;
+}
+
+.scoreboard-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,4 +83,8 @@ body {
 
 .score-btn:active {
     padding: 0.76rem;
+}
+
+.reset-btn:active {
+    padding: 0.16rem;
 }
