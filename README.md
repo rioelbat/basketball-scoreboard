@@ -8,6 +8,11 @@
 
 This is a simple project to learn an interactive website with Javascript. I built this with only HTML, CSS and Javascript without a framework.
 
+### Features
+
+-   Add score for Guest and Home with +1, +2 & +3 buttons
+-   Reset button
+
 ## How to run it
 
 1. Clone it with this command on your terminal.
