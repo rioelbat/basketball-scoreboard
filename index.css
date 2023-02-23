@@ -12,6 +12,7 @@ Text 252, 163, 17 | #FCA311
 
 h3 {
     margin: 0;
+    text-shadow: 0 0 0.8rem black;
 }
 
 body {

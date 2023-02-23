@@ -16,25 +16,63 @@
     <body>
         <h1>Solo Project<br />Basketball Scoreboard🏀</h1>
         <div class="container">
-            <button type="button" class="reset-btn">Reset</button>
+            <button type="button" class="reset-btn" onclick="reset()">
+                Reset
+            </button>
             <div class="scoreboard-content">
                 <div>
                     <h3>HOME</h3>
                     <div class="score">
-                        <span class="score-text">000</span>
+                        <span id="home-score-el" class="score-text">000</span>
                     </div>
-                    <button type="button" class="score-btn">+1</button>
-                    <button type="button" class="score-btn">+2</button>
-                    <button type="button" class="score-btn">+3</button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="homeAdd(1)"
+                    >
+                        +1
+                    </button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="homeAdd(2)"
+                    >
+                        +2
+                    </button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="homeAdd(3)"
+                    >
+                        +3
+                    </button>
                 </div>
                 <div>
                     <h3>GUEST</h3>
                     <div class="score">
-                        <span class="score-text">000</span>
+                        <span id="guest-score-el" class="score-text">000</span>
                     </div>
-                    <button type="button" class="score-btn">+1</button>
-                    <button type="button" class="score-btn">+2</button>
-                    <button type="button" class="score-btn">+3</button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="guestAdd(1)"
+                    >
+                        +1
+                    </button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="guestAdd(2)"
+                    >
+                        +2
+                    </button>
+                    <button
+                        type="button"
+                        class="score-btn"
+                        onclick="guestAdd(3)"
+                    >
+                        +3
+                    </button>
                 </div>
             </div>
         </div>

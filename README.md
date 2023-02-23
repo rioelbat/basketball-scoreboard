@@ -10,7 +10,7 @@ This is a simple project to learn an interactive website with Javascript. I buil
 
 ## How to run it
 
-1. Clone it with this command on your terminal. You can name it with as you want
+1. Clone it with this command on your terminal.
 
 ```
 git clone https://github.com/rioelbat/basketball-scoreboard.git
@@ -18,7 +18,8 @@ git clone https://github.com/rioelbat/basketball-scoreboard.git
 
 2. Open `basketball-scoreboard`folder
 3. Run a simple http server with Python or Node
-   Python
+
+Python
 
 ```
 python -m SimpleHTTPServer 8000
