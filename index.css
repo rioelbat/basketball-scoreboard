@@ -10,82 +10,76 @@ Text 252, 163, 17 | #FCA311
     src: url(CursedTimerUlil-Aznm.ttf);
 }
 
-h3 {
-    margin: 0;
-    text-shadow: 0 0 0.8rem black;
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+    margin: 0.85em auto;
+    line-height: 1em;
 }
 
 body {
     margin: 0;
-    height: 100vh;
+    padding: 0;
     background-color: #e5e5e5;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vmin;
 }
 
 .container {
-    position: relative;
+    width: 80vmin;
     background: #14213d;
     color: #e5e5e5;
-    font-size: 1.5rem;
-    padding: 2rem;
-    box-shadow: 0 0 2rem black;
-    border-radius: 1rem;
-    margin: 2rem auto;
-}
-
-.reset-btn {
-    position: absolute;
-    top: 5%;
-    left: 2%;
-    background-color: #14213d;
-    padding: 0.2rem;
-    border: 0.1rem solid #f94f6d;
-    color: #f94f6d;
+    box-shadow: 0 0 1em black;
+    border-radius: 1em;
+    padding: 1em 0.1em;
 }
 
 .scoreboard-content {
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .score-text {
     font-family: "Cursed Timer ULiL Font";
-    font-size: 4em;
     color: #f94f6d;
+    padding-top: 0.2em;
+    font-size: 15vmin;
+    margin: 0.1em auto;
 }
 
 .score {
     background: black;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin: 1rem 1rem;
+}
+
+.btn {
+    font-family: "Cursed Timer ULiL Font";
+    background: none;
+    color: #9aabd8;
+    border: 0.1em solid #9aabd8;
+    padding: 0.3em;
+    padding-bottom: 0.2em;
 }
 
 .score-btn {
-    color: #9aabd8;
-    background: none;
-    padding: 0.8rem;
-    border: 0.1rem solid #9aabd8;
-    font-family: "Cursed Timer ULiL Font";
-    font-size: 1rem;
+    font-size: 5vmin;
+    margin: 0.3em auto;
 }
 
-.score-btn:hover {
-    border-color: #fca311;
-    color: #fca311;
+.reset-btn {
+    font-size: 2vmin;
+    margin: 0.75em 2em;
+    margin-bottom: 0;
 }
 
-.score-btn:active {
-    padding: 0.76rem;
-}
-
-.reset-btn:active {
-    padding: 0.16rem;
+.btn:active {
+    color: #f94f6d;
+    border: 0.1em solid #f94f6d;
 }
